@@ -22,9 +22,9 @@ CREATE TABLE employees (
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INT,
-    employee_id INT,
+    manager_id INT,
     FOREIGN KEY (role_id) REFERENCES roles(id),
-    FOREIGN KEY (employee_id) REFERENCES employees(id)
+    FOREIGN KEY (manager_id) REFERENCES employees(id)
 );
 
 

@@ -10,7 +10,7 @@ VALUES  ('floor clerk', 40000, 1),
         ('general manager', 80000, 1),
         ('assistant manager', 60000, 3);
 
-INSERT INTO employees (first_name, last_name, role_id, employee_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES  ('Crinage', 'Kev', 1, 1),
         ('Elga', 'Layne', 1, 2),
         ('Vanya', 'Lochead', 1, NULL),
